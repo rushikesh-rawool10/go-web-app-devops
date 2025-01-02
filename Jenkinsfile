@@ -1,7 +1,6 @@
 pipeline {
-  agent {
-    docker {}
-  }
+  agent any
+  
   stages {
     stage('Checkout') {
       steps {
