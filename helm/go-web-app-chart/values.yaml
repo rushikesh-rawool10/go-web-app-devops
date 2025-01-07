@@ -8,11 +8,11 @@ image:
   repository: rushidevops10/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image 4 whose default is the chart appVersion.
-  tag: 13
+  tag: "13"
 
 ingress:
   enabled: false
-  className: ""
+  className: "nginx"
   annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
